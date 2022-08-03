@@ -38,6 +38,7 @@ Custom several commands and key bindings to make VSCodeVim more efficient.
 | gr         | Go to references       |
 | [d         | Go to previous problem |
 | ]d         | Go to next problem     |
+| K          | Hover info             |
 
 ### Fold Commands
 
@@ -45,7 +46,7 @@ Custom several commands and key bindings to make VSCodeVim more efficient.
 | ------- | ------------------- |
 | zz      | Toggle fold         |
 | z0      | Unfold all          |
-| z1~z5   | Fold to Level       |
+| z1~z5   | Fold to level       |
 | zk      | Go to previous fold |
 | zj      | Go to next fold     |
 
@@ -56,7 +57,7 @@ Custom several commands and key bindings to make VSCodeVim more efficient.
 | <leader>h \| j \| k \| l | Move cursor to other window |
 | <leader>n \| p           | Move cursor to other tab    |
 
-### Explorer Commands
+### Finder Commands
 
 | Command    | Description                                |
 | ---------- | ------------------------------------------ |
@@ -64,7 +65,21 @@ Custom several commands and key bindings to make VSCodeVim more efficient.
 | <leader>pO | Toggle file explorer and focus active file |
 | <leader>ff | FInd files                                 |
 | <leader>fc | Search in files                            |
-| escape     | Move cursor back to editor                 |
+
+### Explorer Commands
+
+The idea comes from `neovim-tree`
+
+| Command | Description                |
+| ------- | -------------------------- |
+| a       | New file                   |
+| A       | New Folder                 |
+| c       | Copy file                  |
+| x       | Cut file                   |
+| p       | Paste file                 |
+| d       | Delete file                |
+| r       | Rename file                |
+| escape  | Move cursor back to editor |
 
 ### Panel Commands
 
@@ -74,4 +89,3 @@ Custom several commands and key bindings to make VSCodeVim more efficient.
 | <leader>tn | Open new terminal          |
 | <leader>th | Toggle panel               |
 | escape     | Move cursor back to editor |
-
