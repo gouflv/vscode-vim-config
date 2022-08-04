@@ -68,7 +68,7 @@ Custom several commands and key bindings to make VSCodeVim more efficient.
 
 ### Explorer Commands
 
-The idea comes from `neovim-tree`
+Inspired by `neovim-tree`
 
 | Command | Description                |
 | ------- | -------------------------- |
