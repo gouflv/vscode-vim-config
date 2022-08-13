@@ -22,7 +22,7 @@
   },
   // Explorer
   {
-    "key": "a",
+    "key": "ctrl+a",
     "command": "explorer.newFile",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
   },
@@ -32,32 +32,32 @@
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
   },
   {
-    "key": "c",
+    "key": "ctrl+c",
     "command": "filesExplorer.copy",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
   },
   {
-    "key": "x",
+    "key": "ctrl+x",
     "command": "filesExplorer.cut",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
   },
   {
-    "key": "p",
+    "key": "ctrl+p",
     "command": "filesExplorer.paste",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
   },
   {
-    "key": "d",
+    "key": "ctrl+d",
     "command": "deleteFile",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
   },
   {
-    "key": "r",
+    "key": "ctrl+r",
     "command": "renameFile",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
   },
   {
-    "key": "v",
+    "key": "ctrl+v",
     "command": "explorer.openToSide",
     "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   },
@@ -65,5 +65,5 @@
     "key": "enter",
     "command": "-renameFile",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  }
+  },
 ]
